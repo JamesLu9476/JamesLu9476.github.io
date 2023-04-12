@@ -10,180 +10,52 @@
 
 <H2>西夏文字母表</H2>
 
-<span style='font-size:24.0pt;font-family:"Noto Serif Tangut","sans-serif"'>
+<span style='font-size:28.0pt;font-family:"Mojikyo Tangut","sans-serif"'>
 &#95851;&#95221;&#95281;&#97567;&#95802;&#96640;<br>
 
-  <script language="JavaScript">
-    <!--
+
+	<script language="JavaScript">
+		<!--
 
 		function showThumb(start, row) {
-		  j = 0;
-		  for (i = start; i < start + row; i++) {
-	      document.writeln("&#"+i+" ");
-	      j++;
-	      if (j == 20) {
-	        j = 0;
-  	      document.writeln("<br>");
-	      }
-	    }
-	  }
+			j = 0;
+			document.writeln("<table border=\"1\">");
+			document.writeln("<tr align=\"center\">");
+			document.writeln("<td>文字碼</td>");
+			for (i = 0; i < 10; i++) {
+				document.writeln("<td>"+i+"</td>");
+			}
+			document.writeln("</tr><tr align=\"center\">");
+
+			document.writeln("<td>"+start+"</td>");
+			for (i = start; i < start + row; i++) {
+				document.writeln("<td><span style='font-size:28.0pt;font-family:\"Noto Serif Tangut\";color:blue'>&#"+i+"</span></td>");
+				j++;
+				if (j == 10) {
+					j = 0;
+					if (i == start + row - 1) {
+						document.writeln("</tr>");
+					} else {
+						document.writeln("</tr><tr align=\"center\"><td>"+(i+1)+"</td>");
+					}
+				}
+			}
+
+			document.writeln("</tr></table>");
+		}
 	  
-	  showThumb(95221, 600);
-    -->
-  </script>
-
-<table border="1">
-	<tr align="center">
-		<td>&amp#71040;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71040;</span></td> <td> a </td>
-		<td>&amp#71060;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71060;</span></td> <td> ch </td>
-		<td>&amp#71080;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71080;</span></td> <td> r </td>
-		<td>&amp#71100;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71100;</span></td>
-		<td>&amp#71120;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71120;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71041;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71041;</span></td> <td> ā </td>
-		<td>&amp#71061;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71061;</span></td> <td> j </td>
-		<td>&amp#71081;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71081;</span></td> <td> l </td>
-		<td>&amp#71101;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71101;</span></td>
-		<td>&amp#71121;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71121;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71042;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71042;</span></td> <td> i </td>
-		<td>&amp#71062;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71062;</span></td> <td> jh </td>
-		<td>&amp#71082;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71082;</span></td> <td> v </td>
-		<td>&amp#71102;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71102;</span></td>
-		<td>&amp#71122;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71122;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71043;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71043;</span></td> <td> ī </td>
-		<td>&amp#71063;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71063;</span></td> <td> ñ </td>
-		<td>&amp#71083;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71083;</span></td> <td> ś </td>
-		<td>&amp#71103;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71103;</span></td>
-		<td>&amp#71123;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71123;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71044;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71044;</span></td> <td> u </td>
-		<td>&amp#71064;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71064;</span></td> <td> ṭ </td>
-		<td>&amp#71084;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71084;</span></td> <td> ṣ </td>
-		<td>&amp#71104;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71104;</span></td>
-		<td>&amp#71124;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71124;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71045;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71045;</span></td> <td> ū </td>
-		<td>&amp#71065;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71065;</span></td> <td> ṭh </td>
-		<td>&amp#71085;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71085;</span></td> <td> s </td>
-		<td>&amp#71105;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71105;</span></td>
-		<td>&amp#71125;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71125;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71046;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71046;</span></td> <td> ṛ </td>
-		<td>&amp#71066;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71066;</span></td> <td> ḍ </td>
-		<td>&amp#71086;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71086;</span></td> <td> h </td>
-		<td>&amp#71106;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71106;</span></td>
-		<td>&amp#71126;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71126;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71047;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71047;</span></td> <td> ṝ </td>
-		<td>&amp#71067;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71067;</span></td> <td> ḍh </td>
-		<td>&amp#71087;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71087;</span></td> <td>   </td>
-		<td>&amp#71107;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71107;</span></td>
-		<td>&amp#71127;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71127;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71048;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71048;</span></td> <td> ḷ </td>
-		<td>&amp#71068;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71068;</span></td> <td> ṇ </td>
-		<td>&amp#71088;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71088;</span></td> <td>   </td>
-		<td>&amp#71108;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71108;</span></td>
-		<td>&amp#71128;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71128;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71049;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71049;</span></td> <td> ḹ </td>
-		<td>&amp#71069;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71069;</span></td> <td> t </td>
-		<td>&amp#71089;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71089;</span></td> <td>   </td>
-		<td>&amp#71109;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71109;</span></td>
-		<td>&amp#71129;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71129;</span></td>
-	</tr>
+		showThumb(94200, 6150);
+		-->
+	</script>
 
 
-	<tr align="center">
-		<td>&amp#71050;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71050;</span></td> <td> e </td>
-		<td>&amp#71070;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71070;</span></td> <td> th </td>
-		<td>&amp#71090;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71090;</span></td> <td>   </td>
-		<td>&amp#71110;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71110;</span></td>
-		<td>&amp#71130;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71130;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71051;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71051;</span></td> <td> ē </td>
-		<td>&amp#71071;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71071;</span></td> <td> d </td>
-		<td>&amp#71091;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71091;</span></td> <td>   </td>
-		<td>&amp#71111;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71111;</span></td>
-		<td>&amp#71131;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71131;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71052;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71052;</span></td> <td> o </td>
-		<td>&amp#71072;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71072;</span></td> <td> dh </td>
-		<td>&amp#71092;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71092;</span></td> <td>   </td>
-		<td>&amp#71112;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71112;</span></td>
-		<td>&amp#71132;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71132;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71053;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71053;</span></td> <td> ō </td>
-		<td>&amp#71073;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71073;</span></td> <td> n </td>
-		<td>&amp#71093;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71093;</span></td> <td>   </td>
-		<td>&amp#71113;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71113;</span></td>
-		<td>&amp#71133;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71133;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71054;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71054;</span></td> <td> k </td>
-		<td>&amp#71074;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71074;</span></td> <td> p </td>
-		<td>&amp#71094;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71094;</span></td> <td>   </td>
-		<td>&amp#71114;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71114;</span></td>
-		<td>&amp#71134;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71134;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71055;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71055;</span></td> <td> kh </td>
-		<td>&amp#71075;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71075;</span></td> <td> ph </td>
-		<td>&amp#71095;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71095;</span></td> <td>   </td>
-		<td>&amp#71115;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71115;</span></td>
-		<td>&amp#71135;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71135;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71056;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71056;</span></td> <td> g </td>
-		<td>&amp#71076;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71076;</span></td> <td> b </td>
-		<td>&amp#71096;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71096;</span></td> <td>   </td>
-		<td>&amp#71116;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71116;</span></td>
-		<td>&amp#71136;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71136;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71057;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71057;</span></td> <td> gh </td>
-		<td>&amp#71077;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71077;</span></td> <td> bh </td>
-		<td>&amp#71097;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71097;</span></td> <td>   </td>
-		<td>&amp#71117;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71117;</span></td>
-		<td>&amp#71137;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71137;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71058;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71058;</span></td> <td> ṅ </td>
-		<td>&amp#71078;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71078;</span></td> <td> m </td>
-		<td>&amp#71098;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71098;</span></td> <td>   </td>
-		<td>&amp#71118;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71118;</span></td>
-		<td>&amp#71138;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71138;</span></td>
-	</tr>
-	<tr align="center">
-		<td>&amp#71059;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71059;</span></td> <td> c </td>
-		<td>&amp#71079;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71079;</span></td> <td> y </td>
-		<td>&amp#71099;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71099;</span></td> <td>   </td>
-		<td>&amp#71119;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71119;</span></td>
-		<td>&amp#71139;</td> <td><span style='font-size:24.0pt;font-family:"Noto Sans Siddham";color:red'>&#71139;</span></td>
-	</tr>
-</table>
 </span>
 
 
 <br><br>
 <form>
-	<input type="button" value="回上頁" onclick="history.back()">
+  <input type="button" value="回前頁" onclick="history.back()">
 </form>
-<p align="right">呂政勳整理※若有錯誤，懇請賜教。［<a href="index.html">回苜頁</a>］</p>
+<p align="right">呂政勳整理※若有錯誤，懇請賜教。［<a href="index.html">回首頁</a>］</p>
 </body>
 </html>
-			
