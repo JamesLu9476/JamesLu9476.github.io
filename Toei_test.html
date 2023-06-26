@@ -3,6 +3,32 @@
 <title>TOEI</title>
 </head>
 	<body>
+
+	<select name="lineID" id=lineID onchange=onChange()>
+		<option value="">請選擇線路</option>
+		<option value="1">大江戶線</option>
+		<option value="2" selected>三田線</option>
+		<option value="3">新宿線</option>
+		<option value="4">淺草線</option>
+		<option value="5">荒川線</option>
+		<option value="6">日暮里舍人線</option>
+		<option value="7" disabled>山手線</option>
+	</select>
+
+	<select name="stationIDRange" id=stationID onchange=onChange()>
+		<option value="">請選擇範圍</option>
+		<option value="1000" disabled>1000 ~ 2000</option>
+		<option value="2000" selected>2000 ~ 3000</option>
+		<option value="3000">3000 ~ 4000</option>
+		<option value="4000">4000 ~ 5000</option>
+		<option value="5000">5000 ~ 6000</option>
+		<option value="6000">6000 ~ 7000</option>
+		<option value="7000">7000 ~ 8000</option>
+		<option value="8000">8000 ~ 9000</option>
+		<option value="9000">9000 ~ 10000</option>
+	</select>
+	<br>
+		
 	<script language="JavaScript">
 		<!-- 
 		function getStation(lineId, stationId) {
@@ -13,8 +39,8 @@
 		document.writeln("</a><br>");
 		}
 
-		for (stationId = 2000; stationId < 3000; stationId++) {
-			getStation(2, stationId);
+		for (stationId = 4000; stationId < 5000; stationId++) {
+			getStation(6, stationId);
 		}
 		-->
 	</script>
