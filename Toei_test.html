@@ -7,11 +7,11 @@
 	<select name="lineID" id=lineID onchange=onChange()>
 		<option value="">請選擇線路</option>
 		<option value="1">大江戶線</option>
-		<option value="2" selected>三田線</option>
+		<option value="2">三田線</option>
 		<option value="3">新宿線</option>
 		<option value="4">淺草線</option>
 		<option value="5">荒川線</option>
-		<option value="6">日暮里舍人線</option>
+		<option value="6" selected>日暮里舍人線</option>
 		<option value="7" disabled>山手線</option>
 	</select>
 
@@ -39,7 +39,7 @@
 		document.writeln("</a><br>");
 		}
 
-		for (stationId = 4000; stationId < 5000; stationId++) {
+		for (stationId = 3000; stationId < 4000; stationId++) {
 			getStation(6, stationId);
 		}
 		-->
