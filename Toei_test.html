@@ -8,18 +8,18 @@
 		<option value="">請選擇線路</option>
 		<option value="1">大江戶線</option>
 		<option value="2">三田線</option>
-		<option value="3">新宿線</option>
+		<option value="3" selected>新宿線</option>
 		<option value="4">淺草線</option>
 		<option value="5">荒川線</option>
-		<option value="6" selected>日暮里舍人線</option>
+		<option value="6">日暮里舍人線</option>
 		<option value="7" disabled>山手線</option>
 	</select>
 
 	<select name="stationIDRange" id=stationID onchange=onChange()>
 		<option value="">請選擇範圍</option>
 		<option value="1000" disabled>1000 ~ 2000</option>
-		<option value="2000" selected>2000 ~ 3000</option>
-		<option value="3000">3000 ~ 4000</option>
+		<option value="2000">2000 ~ 3000</option>
+		<option value="3000" selected>3000 ~ 4000</option>
 		<option value="4000">4000 ~ 5000</option>
 		<option value="5000">5000 ~ 6000</option>
 		<option value="6000">6000 ~ 7000</option>
@@ -39,8 +39,8 @@
 		document.writeln("</a><br>");
 		}
 
-		for (stationId = 1000; stationId < 2000; stationId++) {
-			getStation(6, stationId);
+		for (stationId = 3000; stationId < 4000; stationId++) {
+			getStation(3, stationId);
 		}
 		-->
 	</script>
