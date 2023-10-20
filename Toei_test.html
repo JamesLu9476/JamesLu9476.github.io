@@ -35,6 +35,13 @@
 			document.writeln("<a href=");
 			document.writeln("https://static.toei.navitime.biz/stamp?lineId="+lineId+"&stationId="+stationId);
 			document.writeln(">");
+			if (stationId < 10) {
+				stationId = "000" + stationId;
+			} else if (stationId < 100) {
+				stationId = "00" + stationId;
+			} else if (stationId < 1000) {
+				stationId = "0" + stationId;
+			}
 			document.writeln("lineId="+lineId+"&stationId="+stationId);
 		document.writeln("</a><br>");
 		}
