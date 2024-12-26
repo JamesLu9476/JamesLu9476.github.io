@@ -16,8 +16,8 @@
 	</select>
 
 	<select name="stationIDRange" id=stationID onchange=onChange()>
-		<option value="">請選擇範圍</option>
-		<option value="1000" disabled>1000 ~ 2000</option>
+		<option value="" disabled>請選擇範圍</option>
+		<option value="1000">1000 ~ 2000</option>
 		<option value="2000">2000 ~ 3000</option>
 		<option value="3000" selected>3000 ~ 4000</option>
 		<option value="4000">4000 ~ 5000</option>
@@ -46,7 +46,7 @@
 		document.writeln("</a><br>");
 		}
 
-		for (stationId = 0000; stationId < 1000; stationId++) {
+		for (stationId = 1000; stationId < 2000; stationId++) {
 			getStation(5, stationId);
 		}
 		-->
